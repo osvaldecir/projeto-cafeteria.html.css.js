@@ -78,19 +78,23 @@ font-size: 2rem;
     margin-top: 1rem;
     margin-top: 1rem;
     display: inline-block;
+    border-radius: 10px;
  }
 
  .home-container{
     background: url("/img/home-img.jpg");
-    
     background-position: center;
     background-size: cover;
+    height: 100vh;
 
  }
  .home-container section{
     display: flex;
     align-items: center;
     min-height: 100vh;
+    justify-content: left;
+    
+    
  }
  .content{
     max-width: 60rem;
@@ -103,7 +107,7 @@ font-size: 2rem;
  .content p{
     color: #fff;
     font-size: 2rem;
-    font-weight: 150;
+    font-weight: 400;
     line-height: 1.8;
     padding: 1rem 0;
  }
