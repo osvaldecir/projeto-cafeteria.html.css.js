@@ -24,10 +24,10 @@ body{
 }
 
 .header {
-    width: 100px;
+    
     position: fixed;
     top: 0;
-    height: 100px;
+    right:0 ; 
     left: 0;
     z-index: 99;
     border-bottom: var(--border);
