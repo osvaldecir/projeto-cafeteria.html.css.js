@@ -4,6 +4,7 @@
     --bg: #010103;
     --border: 0.1rem solid rgba(255,255,255,0.3);
     font-size: 10px;
+    
 
 
 
@@ -17,10 +18,16 @@
     text-decoration: none;
     text-transform: capitalize;  /*faz com que todas as palavras comecem com letra maiuscula*/
     transition: 0.2s linear;
+    font-family: "Roboto", sans-serif;
 
 }
 body{
     background: var(--bg);
+}
+section{
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .header {
@@ -33,3 +40,70 @@ body{
     border-bottom: var(--border);
    
 }
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+.navbar a:hover{
+color: var(--main-color);
+border-bottom: 0.1rem solid var(--main-color);
+padding-bottom: 0.5rem;
+font-size: 2rem;
+}
+ .icons img{
+    margin: 1rem;
+    cursor: pointer;
+
+ }
+ .icons img:hover{
+    width: 40px;
+    height: 40px;
+
+ }
+ .btn{
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+ }
+
+ .home-container{
+    background: url("/img/home-img.jpg");
+    
+    background-position: center;
+    background-size: cover;
+
+ }
+ .home-container section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+ }
+ .content{
+    max-width: 60rem;
+
+ }
+ .content h3{
+    color: #fff;
+    font-size: 06rem;
+ }
+ .content p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 150;
+    line-height: 1.8;
+    padding: 1rem 0;
+ }
