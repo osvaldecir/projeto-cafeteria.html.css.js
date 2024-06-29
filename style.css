@@ -15,7 +15,7 @@
    padding: 0;
    outline: none;
    border: none;
-   text-decoration: none;
+   text-decoration: none; /*tira o sublinhado*/
    text-transform: capitalize;
    /*faz com que todas as palavras comecem com letra maiuscula*/
    transition: 0.2s linear;
