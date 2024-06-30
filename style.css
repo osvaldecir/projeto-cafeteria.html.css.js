@@ -173,6 +173,7 @@ section {
    border: var(--border);
    padding: 5rem;
    cursor: pointer;
+   
 }
 .menu .box-container .box:hover{
    background-color: #fff;
@@ -203,3 +204,4 @@ section {
    .review .box-container{
 
    }
+   
